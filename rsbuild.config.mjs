@@ -53,8 +53,10 @@ export default defineConfig({
     }
   },
   output: {
-    // distPath: 'dist', // outputDir: 'dist'，可删除，rsbuild 默认配置
-    // assetPrefix: '/', // publicPath: '/'
+    distPath: {
+      root: 'dist'
+    }, // outputDir: 'dist'
+    assetPrefix: '/', // publicPath: '/'
 
     // vue-cli assetsDir
     // https://v1.rsbuild.rs/zh/config/output/dist-path#outputdistpath
