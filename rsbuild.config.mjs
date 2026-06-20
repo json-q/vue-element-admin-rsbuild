@@ -56,7 +56,7 @@ export default defineConfig({
     // distPath: 'dist', // outputDir: 'dist'，可删除，rsbuild 默认配置
     // assetPrefix: '/', // publicPath: '/'
 
-    // 对应 assetsDir 其实和 rsbuild 的默认 assets 输出一致，可以不用新增保持默认配置也行
+    // vue-cli assetsDir
     // https://v1.rsbuild.rs/zh/config/output/dist-path#outputdistpath
     // distPath: {
     //   js: 'static/js',
@@ -65,13 +65,13 @@ export default defineConfig({
     //   font: 'static/fonts'
     // }
 
-    // 对应 productionSourceMap，可不添加，保持 rsbuild 默认配置即可。
+    // vue-cli productionSourceMap
     // sourceMap: {
     //   js: process.env.NODE_ENV === 'development' ? 'cheap-module-source-map' : false,
     //   css: false
     // },
 
-    // 对应 chainWebpack 的 script-ext-html-webpack-plugin
+    // vue-cli chainWebpack `script-ext-html-webpack-plugin`
     inlineScripts: {
       include: /runtime\..*\.js$/
     }

@@ -1,3 +1,5 @@
+> 将 vue-cli 完整迁移至 [rsbuild](https://v1.rsbuild.rs/) 以获取更好的开发体验，不破坏当前的开发环境，仅需 node 环境要求 >=16.10.0。
+
 <p align="center">
   <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
 </p>

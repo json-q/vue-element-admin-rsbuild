@@ -1,3 +1,5 @@
+> vue-cli から [rsbuild](https://v1.rsbuild.rs/) へ完全移行し、より良い開発体験を実現。現在の開発環境を壊さず、Node.js >= 16.10.0 のみ必要です。
+
 <p align="center">
   <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
 </p>
