@@ -33,6 +33,7 @@ export default defineConfig({
     define: publicVars
   },
   html: {
+    inject: 'body', // https://v1.rsbuild.rs/zh/config/output/inline-scripts#outputinlinescripts
     template: './public/index.html',
     title: name
   },
@@ -75,7 +76,8 @@ export default defineConfig({
 
     // vue-cli chainWebpack `script-ext-html-webpack-plugin`
     inlineScripts: {
-      include: /runtime\..*\.js$/
+      enable: 'auto',
+      test: /[\\/]runtime\.\w+\.js$/
     }
   },
   performance: {
